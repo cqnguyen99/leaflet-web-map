@@ -1,0 +1,27 @@
+#map {
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    height: 100%; 
+    width: 100%;}
+
+.dropdown {
+    top: 10px;
+    left: 50px;
+    font-size: 1em;
+    display: block;
+}
+
+#time {
+    height: 30px;
+    text-justify: auto;
+    widows: initial;
+}
+
+#colors{
+    height: 30px;
+    text-justify: auto;
+    widows: initial;
+}

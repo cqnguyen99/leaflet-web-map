@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Earthquake Map</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+
+    <link rel="stylesheet" href="map.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <body>
+        <div id = "map"></div>
+        <script src="all_month.js"></script>
+        <script src="all_hour.js"></script>
+        <script src="all_day.js"></script>
+        <script src="all_week.js"></script>
+        
+        <div class="dropdown">
+            <select id="colors"> 
+                <option disableb hidden selected>Colors</option>
+                <option value="Satellite Hybrid">Satellite Hybrid</option>
+                <option value="Basic">Basic</option>
+                <option value="Bright">Bright</option>
+                <option value="Outdoor">Outdoor</option>
+                <option value="Pastel">Pastel</option>
+                <option value="Streets">Streets</option>
+                <option value="Toner">Toner</option>
+                <option value="Topo">Topo</option>
+                <option value="Topographique">Topographique</option>
+                <option value="Voyager">Voyager</option>
+            </select>
+
+            <select id="time">
+                <option value="Past Hour">Past Hour</option>
+                <option disableb hidden selected>Time</option>
+                <option value="Past 30 Days">Past 30 Days</option>
+                <option value="Past 7 Days">Past 7 Days</option>
+                <option value="Past Day">Past Day</option>
+                <option value="Past Hour">Past Hour</option>
+            </select>
+        </div>
+
+        <script src="mapdata.js"></script>
+    </body>
+</html>
